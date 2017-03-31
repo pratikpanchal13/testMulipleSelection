@@ -14,6 +14,8 @@ class TestVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("welcome")
     }
 
     override func didReceiveMemoryWarning() {
