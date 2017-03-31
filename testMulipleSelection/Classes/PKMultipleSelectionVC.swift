@@ -33,7 +33,7 @@ public class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITable
     public var selectedIndex: NSMutableArray = []
     
     //MARK:- View Life Cycle
-    override func viewDidLoad() {
+    override  public func viewDidLoad() {
         super.viewDidLoad()
 
         self.SetUpUI()   // Set UI
@@ -51,7 +51,7 @@ public class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITable
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         selectedIndex.addObjects(from: objGetSelectedIndex)
         for i in objGetSelectedIndex {
             let indexPath = IndexPath(row: i, section: 0)
