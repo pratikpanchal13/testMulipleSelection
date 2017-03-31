@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     //Public Variable Declaration For Data Passing
     public var objGetSelectedIndex: [Int] = []                       // HomeVC
@@ -33,7 +33,7 @@ public class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITable
     public var selectedIndex: NSMutableArray = []
     
     //MARK:- View Life Cycle
-    override  public func viewDidLoad() {
+    override  func viewDidLoad() {
         super.viewDidLoad()
 
         self.SetUpUI()   // Set UI
@@ -51,7 +51,7 @@ public class PKMultipleSelectionVC: UIViewController,UITableViewDelegate,UITable
         }
     }
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override  func viewWillAppear(_ animated: Bool) {
         selectedIndex.addObjects(from: objGetSelectedIndex)
         for i in objGetSelectedIndex {
             let indexPath = IndexPath(row: i, section: 0)
