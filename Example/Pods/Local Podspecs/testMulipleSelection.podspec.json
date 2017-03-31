@@ -1,0 +1,22 @@
+{
+  "name": "testMulipleSelection",
+  "version": "0.1.0",
+  "summary": "A short description of testMulipleSelection.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pratikpanchal131/testMulipleSelection",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pratikpanchal131": "pratik.panchal13@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pratikpanchal131/testMulipleSelection.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testMulipleSelection/Classes/**/*"
+}

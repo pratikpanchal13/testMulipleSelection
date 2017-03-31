@@ -1,0 +1,16 @@
+PODS:
+  - testMulipleSelection (0.1.0)
+
+DEPENDENCIES:
+  - testMulipleSelection (from `../`)
+
+EXTERNAL SOURCES:
+  testMulipleSelection:
+    :path: ../
+
+SPEC CHECKSUMS:
+  testMulipleSelection: ee2cf4ec266f7e0c10d8b0c2d421e2ddf45c9861
+
+PODFILE CHECKSUM: 4c79f302c2a2c17bd0d613ff161bd9cbdae378de
+
+COCOAPODS: 1.2.0

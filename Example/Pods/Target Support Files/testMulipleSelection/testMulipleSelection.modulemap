@@ -1,0 +1,6 @@
+framework module testMulipleSelection {
+  umbrella header "testMulipleSelection-umbrella.h"
+
+  export *
+  module * { export * }
+}
