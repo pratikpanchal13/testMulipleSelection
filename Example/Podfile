@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'testMulipleSelection_Example' do
+  pod 'testMulipleSelection', :path => '../'
+
+  target 'testMulipleSelection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
